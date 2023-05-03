@@ -1,0 +1,7 @@
+Pada program tersebut, kita mendefinisikan kelas FinancialRatio dengan dua member variabel (current_assets dan current_liabilities) dan dua member fungsi (current_ratio dan quick_ratio) yang digunakan untuk menghitung rasio keuangan sederhana. Kita juga mendeklarasikan variabel inventory sebagai variabel anggota pribadi kelas.
+
+Di dalam fungsi current_ratio, rasio keuangan current ratio dihitung dengan membagi current_assets dengan current_liabilities. Di dalam fungsi quick_ratio, rasio keuangan quick ratio dihitung dengan mengurangi nilai inventory dari current_assets dan kemudian membagi hasilnya dengan current_liabilities.
+
+Setelah deklarasi kelas, kita kemudian mendefinisikan fungsi main sebagai fungsi utama program. Di dalam fungsi main, kita membuat sebuah objek dari kelas FinancialRatio dengan nama ratio1. Objek ratio1 kemudian diberi nilai pada member variabel current_assets dan current_liabilities menggunakan sintaks penugasan (=).
+
+Setelah itu, kita memanggil fungsi current_ratio dan quick_ratio dari objek ratio1 untuk menghitung rasio keuangan current ratio dan quick ratio. Hasil perhitungan kemudian ditampilkan pada layar konsol menggunakan fungsi cout.
